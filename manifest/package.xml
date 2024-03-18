@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-	
+	<types>
+		<members>*</members>
+		<name>ContentAsset</name>
+	</types>
 	<types>
 		<members>Home2Home</members>
 		<name>CustomApplication</name>
@@ -19,6 +22,22 @@
 		<members>OrderH__c</members>
 		<name>CustomObject</name>
 	</types>
-	
+	<types>
+		<members>ChefReview__c</members>
+		<members>Chef__c</members>
+		<members>CustomerH__c</members>
+		<members>Food__c</members>
+		<members>LocationH__c</members>
+		<members>OrderH__c</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>Home2Home_UtilityBar</members>
+		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>Home_to_Home_app_basics</members>
+		<name>PermissionSet</name>
+	</types>
 	<version>58.0</version>
 </Package>
