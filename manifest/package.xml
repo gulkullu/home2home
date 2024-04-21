@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
+		<members>AvgRatingPopulation</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>apexEmailNotifications</members>
+		<name>ApexEmailNotifications</name>
+	</types>
+	<types>
+		<members>ChefReviewTrigger</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>ContentAsset</name>
 	</types>
@@ -34,6 +46,21 @@
 	<types>
 		<members>Home2Home_UtilityBar</members>
 		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>ChefReviewResponseDate_Flow</members>
+		<members>Chef_Login_Screen</members>
+		<members>Create_Food_Record</members>
+		<members>Creating_a_New_Order_Location</members>
+		<members>Customer_Login_Screen</members>
+		<members>Email_Notifications_for_Payment_Status_Successful_Failed</members>
+		<members>Order_Status</members>
+		<members>Review_Entry_Table</members>
+		<name>Flow</name>
+	</types>
+	<types>
+		<members>richComment</members>
+		<name>LightningComponentBundle</name>
 	</types>
 	<types>
 		<members>Home_to_Home_app_basics</members>
