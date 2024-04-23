@@ -5,15 +5,11 @@
 		<name>ApexClass</name>
 	</types>
 	<types>
-		<members>apexEmailNotifications</members>
-		<name>ApexEmailNotifications</name>
-	</types>
-	<types>
 		<members>ChefReviewTrigger</members>
 		<name>ApexTrigger</name>
 	</types>
 	<types>
-		<members>*</members>
+		<members>H2H</members>
 		<name>ContentAsset</name>
 	</types>
 	<types>
@@ -30,8 +26,8 @@
 		<members>Chef__c</members>
 		<members>CustomerH__c</members>
 		<members>Food__c</members>
-		<members>LocationH__c</members>
 		<members>OrderH__c</members>
+		<members>OrderLocation__c</members>
 		<name>CustomObject</name>
 	</types>
 	<types>
@@ -39,12 +35,15 @@
 		<members>Chef__c</members>
 		<members>CustomerH__c</members>
 		<members>Food__c</members>
-		<members>LocationH__c</members>
 		<members>OrderH__c</members>
+		<members>OrderLocation__c</members>
 		<name>CustomTab</name>
 	</types>
 	<types>
 		<members>Home2Home_UtilityBar</members>
+		<members>Chef_Record_Page</members>
+		<members>OrderH_Record_Page</members>
+		<members>desktopDefault</members>
 		<name>FlexiPage</name>
 	</types>
 	<types>
@@ -53,8 +52,6 @@
 		<members>Create_Food_Record</members>
 		<members>Creating_a_New_Order_Location</members>
 		<members>Customer_Login_Screen</members>
-		<members>Email_Notifications_for_Payment_Status_Successful_Failed</members>
-		<members>Order_Status</members>
 		<members>Review_Entry_Table</members>
 		<name>Flow</name>
 	</types>
@@ -65,6 +62,10 @@
 	<types>
 		<members>Home_to_Home_app_basics</members>
 		<name>PermissionSet</name>
+	</types>
+	<types>
+		<members>StandartUserClone</members>
+		<name>Profile</name>
 	</types>
 	<version>58.0</version>
 </Package>

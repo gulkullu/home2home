@@ -10,20 +10,10 @@
     <type>Picklist</type>
     <valueSet>
         <valueSetDefinition>
-            <sorted>true</sorted>
-            <value>
-                <fullName>Canceled</fullName>
-                <default>false</default>
-                <label>Canceled</label>
-            </value>
-            <value>
-                <fullName>Delivered</fullName>
-                <default>false</default>
-                <label>Delivered</label>
-            </value>
+            <sorted>false</sorted>
             <value>
                 <fullName>In Preparation</fullName>
-                <default>false</default>
+                <default>true</default>
                 <label>In Preparation</label>
             </value>
             <value>
@@ -32,9 +22,14 @@
                 <label>Out for Delivery</label>
             </value>
             <value>
-                <fullName>Pending</fullName>
+                <fullName>Delivered</fullName>
                 <default>false</default>
-                <label>Pending</label>
+                <label>Delivered</label>
+            </value>
+            <value>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+                <label>Canceled</label>
             </value>
         </valueSetDefinition>
     </valueSet>

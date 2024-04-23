@@ -17,6 +17,11 @@
                 <label>Completed</label>
             </value>
             <value>
+                <fullName>Payment Failed</fullName>
+                <default>false</default>
+                <label>Payment Failed</label>
+            </value>
+            <value>
                 <fullName>Pending</fullName>
                 <default>false</default>
                 <label>Pending</label>
