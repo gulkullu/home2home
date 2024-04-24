@@ -16,3 +16,14 @@ The `sfdx-project.json` file contains useful configuration information for your 
 - [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
 - [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+
+NOTE !!!!
+After you deploy Package.xml, Assign  Home to Home app basics  to your user 
+Two ways to assign permission sets
+1. To scratch org ; Write the following line to Terminal after Package.xml deployment
+sf org assign permset -n Home_to_Home_app_basics
+
+2. Assign from Org 
+GO TO 
+SETUP > PERMISSION SETS > Home to Home app basics > Manage Assignments > Add Assignment > Choose your user checkbox > Next > Assign > Done
+App Manager > Home2Home 
