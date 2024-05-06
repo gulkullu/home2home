@@ -1,71 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>AvgRatingPopulation</members>
-		<name>ApexClass</name>
-	</types>
-	<types>
-		<members>ChefReviewTrigger</members>
-		<name>ApexTrigger</name>
-	</types>
-	<types>
-		<members>H2H</members>
-		<name>ContentAsset</name>
-	</types>
-	<types>
-		<members>Home2Home</members>
-		<name>CustomApplication</name>
-	</types>
-	<types>
-		<members>Case.Comments_Feedback__c</members>
-		<members>Case.CustomerH__c</members>
-		<name>CustomField</name>
-	</types>
-	<types>
-		<members>ChefReview__c</members>
-		<members>Chef__c</members>
-		<members>CustomerH__c</members>
+		<members>Cart_Item__c</members>
+		<members>Cart__c</members>
 		<members>Food__c</members>
 		<members>OrderH__c</members>
-		<members>OrderLocation__c</members>
 		<name>CustomObject</name>
 	</types>
 	<types>
-		<members>ChefReview__c</members>
-		<members>Chef__c</members>
-		<members>CustomerH__c</members>
-		<members>Food__c</members>
-		<members>OrderH__c</members>
-		<members>OrderLocation__c</members>
-		<name>CustomTab</name>
-	</types>
-	<types>
-		<members>Home2Home_UtilityBar</members>
-		<members>Chef_Record_Page</members>
-		<members>OrderH_Record_Page</members>
-		<members>desktopDefault</members>
-		<name>FlexiPage</name>
-	</types>
-	<types>
-		<members>ChefReviewResponseDate_Flow</members>
-		<members>Chef_Login_Screen</members>
-		<members>Create_Food_Record</members>
-		<members>Creating_a_New_Order_Location</members>
-		<members>Customer_Login_Screen</members>
-		<members>Review_Entry_Table</members>
+		<members>Updating_Cart_item_price</members>
 		<name>Flow</name>
-	</types>
-	<types>
-		<members>richComment</members>
-		<name>LightningComponentBundle</name>
-	</types>
-	<types>
-		<members>Home_to_Home_app_basics</members>
-		<name>PermissionSet</name>
-	</types>
-	<types>
-		<members>StandartUserClone</members>
-		<name>Profile</name>
 	</types>
 	<version>58.0</version>
 </Package>

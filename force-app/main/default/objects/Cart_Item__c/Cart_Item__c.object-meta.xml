@@ -152,16 +152,16 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>ReadWrite</externalSharingModel>
-    <label>OrderH</label>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>Cart Item</label>
     <nameField>
-        <displayFormat>O-{0000}</displayFormat>
-        <label>Order No</label>
+        <displayFormat>CI-{0000}</displayFormat>
+        <label>Cart Item No</label>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>OrdersH</pluralLabel>
+    <pluralLabel>Cart Items</pluralLabel>
     <searchLayouts></searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
